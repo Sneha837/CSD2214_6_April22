@@ -20,16 +20,20 @@
 <script>
 	var map;
 	var cities = [
-		{"cities":"Yellowstone","coords":[44.4280,-110.5885]},
-		{"cities":"Glacier","coords":[48.7596, -113.7870]},
+		//{"cities":"Yellowstone","coords":[44.4280,-110.5885]},
+		//{"cities":"Glacier","coords":[48.7596, -113.7870]},
         {"cities":"Frankendael Amsterdam","coords":[52.347177, 4.919717]},
-        {"cities":"Marine Drive Mumbai", "coords":[18.944941, 72.825699]}
+        {"cities":"Marine Drive Mumbai", "coords":[18.944941, 72.825699]},
+        {"cities":"Venice","coords":[45.4408,12.3155]},
+        {"cities":"Dubrovnik","coords":[42.6507,18.0944]},
+        {"cities":"New York City","coords":[40.7128,74.0060]},
+        {"cities":"Salvador ","coords":[12.9777,38.5016]}
 		];
     
 	function initMap() {
 		map = new google.maps.Map(document.getElementById('map'), {
 			zoom: 4,
-			center: new google.maps.LatLng(44, -110),
+			center: new google.maps.LatLng(34.0479, 100.6197),
 			mapTypeId: 'terrain'
 		});
 
